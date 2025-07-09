@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app1:
+    build:
+      context: .
+    volumes:
+      - .:/app
+    command: python main_tommaso.py
+
+  # app2:
+  #   build:
+  #     context: .
+  #   volumes:
+  #     - .:/app
+  #   command: python main_melissa_lippi.py
