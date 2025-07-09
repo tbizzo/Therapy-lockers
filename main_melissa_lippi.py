@@ -40,7 +40,7 @@ def gioca():
     if g == 'y':
         gioca()
     else:
-        print("Thank you for playing, you are beautiful!")
+        print("Thank you for playing, have a nice day!")
 
 if __name__ == "__main__":
     random.seed()

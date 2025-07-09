@@ -1,3 +1,4 @@
+
 # Use a lightweight version of Python
 FROM python:3.9-slim
 
@@ -8,4 +9,5 @@ WORKDIR /app
 COPY . /app
 
 # Default command (can be overridden)
+
 CMD ["python", "main.py"]

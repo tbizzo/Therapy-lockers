@@ -8,6 +8,8 @@ services:
     command: python main_tommaso.py
 
   app2:
+    stdin_open: true
+    tty: true
     build:
       context: .
     volumes:
